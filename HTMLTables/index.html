@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>HTML Tables</h1>
+
+    <table bgcolor="lightgrey" border="10" cellspacing="5" cellpadding="5">
+        <!-- table head -->
+        <thead>
+            <tr>
+                <th>Days/Periods</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+            </tr>
+        </thead>
+        <!-- table body -->
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>English</td>
+                <td>Science</td>
+                <td>Hindi</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Hindi</td>
+                <td>Sanskrit</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td colspan="2">Game</td>
+                <!-- <td>Game</td> -->
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>English</td>
+                <td>Math</td>
+                <td>Physics</td>
+                <td rowspan="2">Chemistry</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Biology</td>
+                <!-- <td>Chemistry</td> -->
+            </tr>
+        </tbody>
+        <!-- table foot -->
+        <tfoot>
+            <th colspan="5">This is Class XII Time table</th>
+        </tfoot>
+    </table>
+</body>
+</html>
